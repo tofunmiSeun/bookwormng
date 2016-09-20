@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sign in using your twitter account"
+        android:id="@+id/button"
+        android:elevation="@dimen/abc_action_bar_content_inset_material"
+        android:ellipsize="end"
+        android:textAlignment="center"
+        android:textColor="@color/themeColor"
+        android:background="@drawable/round_border"
+        android:layout_below="@+id/space2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="The bookworm app"
+        android:id="@+id/textView"
+        android:textColor="@color/customTextColorSecondary"
+        android:layout_above="@+id/textView9"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Nigeria&apos;s leading online Q&amp;A platform"
+        android:id="@+id/textView9"
+        android:textColor="#e8797f76"
+        android:layout_above="@+id/space2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView10"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Don&apos;t have a twitter account? Sign up "
+        android:id="@+id/textView15"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/space2"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="80dp" />
+
+</RelativeLayout>

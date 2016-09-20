@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BookWormNG</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">BookWormNG</string>
+    <string name="title_activity_question">Questions</string>
+    <string name="title_activity_select_picture">Select Picture</string>
+    <string name="title_activity_prepare_request_token">PrepareRequestTokenActivity</string>
+    <string name="bookwormColorTheme">#ffc6152f</string>
+    <string name="title_activity_twitter_profile">twitter profile</string>
+    <string name="title_activity_my_settings">Settings</string>
+
+    <string name="user_handle">user_handle</string>
+    <string name="title_activity_sync_data">Sync user data</string>
+    <string name="title_activity_log_out">Log Out</string>
+    <string name="title_activity_first">BookwormNG</string>
+    <string name="title_activity_question_temporary">Questions</string>
+    <string name="avatar_string">avatarstring1</string>
+    <string name="pic_string">empty</string>
+    <string name="new_user_score">0</string>
+
+    <color name="themeColor">#E53935</color>
+    <color name="buttonBackgroundColor">#f5f5f5</color>
+    <color name="customTextColor">#424242</color>
+    <color name="customTextColorSecondary">#795548</color>
+</resources>

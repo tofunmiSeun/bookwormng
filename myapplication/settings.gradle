@@ -1,0 +1,1 @@
+include ':app', ':twitter4j-core-4.0.3-javadoc', ':signpost-commonshttp4-1.2.1.1', ':signpost-core-1.2.1.1', ':twitter4j-core-4.0.3', ':firebase-client-android-2.4.0'

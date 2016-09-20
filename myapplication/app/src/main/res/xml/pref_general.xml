@@ -1,0 +1,47 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="App preferences">
+    <CheckBoxPreference
+        android:key="@string/pref_auto_question_sync_key"
+        android:title="@string/pref_auto_question_sync_title"
+        android:summary="@string/pref_auto_question_sync_summary"
+        android:persistent="true"
+        android:defaultValue="true"/>
+    <CheckBoxPreference
+        android:key="@string/pref_auto_advert_sync_key"
+        android:title="@string/pref_auto_advert_sync_title"
+        android:summary="@string/pref_auto_advert_sync_summary"
+        android:persistent="true"
+        android:defaultValue="true"/>
+</PreferenceCategory>
+    <PreferenceCategory
+        android:title="Profile">
+        <Preference
+            android:key="@string/pref_change_picture_key"
+            android:title="@string/pref_change_picture_title">
+            <intent
+                android:targetPackage="com.bookwormng.android"
+                android:targetClass="com.bookwormng.android.SelectPictureActivity" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Twitter account"
+        android:summary="@string/user_handle">
+            <Preference
+                android:key="sync key"
+                android:title="Sync user data"
+                android:summary="Synchronize user data to the server">
+                <intent
+                    android:targetPackage="com.bookwormng.android"
+                android:targetClass="com.bookwormng.android.SyncDataActivity"
+                     />
+            </Preference>
+            <Preference
+                android:key="@string/logout_key"
+                android:summary="Logout your twitter account">
+                <intent
+                    android:targetPackage="com.bookwormng.android"
+                    android:targetClass="com.bookwormng.android.LogOutActivity"
+                    />
+            </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

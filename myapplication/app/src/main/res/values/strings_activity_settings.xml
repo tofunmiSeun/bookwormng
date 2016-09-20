@@ -1,0 +1,31 @@
+<resources>
+    <string name="pref_play_sound_key">Play sound key</string>
+    <string name="pref_play_sound_title">Play sound</string>
+    <string name="pref_play_sound_value">false</string>
+
+    <string name="pref_app_theme_key">App theme color key</string>
+    <string name="pref_app_theme_title">App theme color</string>
+    <string-array name="pref_app_theme_color_titles">
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Red</item>
+    </string-array>
+    <string-array name="pref_app_theme_color_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="pref_auto_question_sync_key">auto question sync key</string>
+    <string name="pref_auto_question_sync_summary">Automatically sync questions from server</string>
+    <string name="pref_auto_question_sync_title">Auto question sync</string>
+
+    <string name="pref_auto_advert_sync_key">auto advert sync key</string>
+    <string name="pref_auto_advert_sync_summary">Automatically sync Ads from server</string>
+    <string name="pref_auto_advert_sync_title">Auto advert sync</string>
+
+    <string name="pref_change_picture_key">Change Picture</string>
+    <string name="pref_change_picture_title">Change profile picture</string>
+
+    <string name="logout_key">logout key</string>
+</resources>

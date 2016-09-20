@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.0 rc2"
+
+    defaultConfig {
+        applicationId "com.bookwormng.android"
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':twitter4j-core-4.0.3-javadoc')
+    compile project(':signpost-commonshttp4-1.2.1.1')
+    compile project(':signpost-core-1.2.1.1')
+    compile project(':twitter4j-core-4.0.3')
+    compile project(':firebase-client-android-2.4.0')
+    compile 'com.android.support:appcompat-v7:22.2.0'
+}
